@@ -1,0 +1,39 @@
+<mvc:View
+	controllerName="scrollboard.controller.salesDashboard"
+	xmlns="sap.suite.ui.microchart"
+	xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<m:GenericTile 
+		header="Group Sales"
+		subheader="Core ($)"
+		frameType="OneByOne"
+		press="press">
+		<m:tileContent>
+			<m:TileContent 
+				footer="">
+				<m:content>
+					<ColumnMicroChart
+						class="sapUiSmallMargin">
+						<leftBottomLabel>
+							<ColumnMicroChartLabel
+								label="MTD-1" />
+						</leftBottomLabel>
+						<rightBottomLabel>
+							<ColumnMicroChartLabel 
+								label="MTD" />
+						</rightBottomLabel>
+						<rightTopLabel>
+							<ColumnMicroChartLabel 
+								label="18%"
+								color="Good"/>
+						</rightTopLabel>
+						<columns>
+							<ColumnMicroChartData value="40M" color="Neutral" />
+							<ColumnMicroChartData value="50M" color="Critical" />
+						</columns>
+					</ColumnMicroChart>
+				</m:content>
+			</m:TileContent>
+		</m:tileContent>
+	</m:GenericTile>
+</mvc:View>

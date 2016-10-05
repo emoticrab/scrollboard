@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "scrollboard",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#scrollboard-Display",
+        "navigationComponentName": "scrollboard",
+        "intentSemanticObject": "scrollboard",
+        "intentAction": "Display",
+        "html5ApplicationName": "scrollboard",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "f065145c-f21d-4bcc-868c-c4cd7704431b-1473747311968"
+        ],
+        "contentPackages": [
+            "6b5684a7-fe43-46f3-8805-58bc7cd6bcc9-1473747725925"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "searchKeywords": "Title,Subtitle",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
