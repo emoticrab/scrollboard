@@ -1,0 +1,26 @@
+<mvc:View controllerName="scrollboard.controller.sbTargetTotalYtdChartTile"
+	xmlns="sap.suite.ui.microchart" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<m:GenericTile header="Fiscal YTD Sales"
+		subheader="Total ($)" frameType="TwoByOne" press="press">
+		<m:tileContent>
+			<m:TileContent footer="YTD vs YTD-1" unit="">
+				<m:content>
+					<m:NumericContent scale="M" value="10.2"
+						valueColor="Good" indicator="Up" />
+				</m:content>
+			</m:TileContent>
+			<m:TileContent>
+				<m:content>
+					<ComparisonMicroChart scale="M">
+						<data>
+							<ComparisonMicroChartData title="Actual"
+								value="170.0" color="Good" />
+							<ComparisonMicroChartData title="Target"
+								value="156.7" color="Good" />
+						</data>
+					</ComparisonMicroChart>
+				</m:content>
+			</m:TileContent>
+		</m:tileContent>
+	</m:GenericTile>
+</mvc:View>

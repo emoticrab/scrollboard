@@ -1,0 +1,39 @@
+<mvc:View 
+	controllerName="scrollboard.controller.salesDashboard"
+	xmlns="sap.suite.ui.microchart"
+	xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<m:GenericTile 
+		header="Fiscal MTD Sales"
+		subheader="Total ($)"
+		frameType="TwoByOne"
+		press="press">
+		<m:tileContent>
+			<m:TileContent  
+				footer="MTD vs MTD-1" 
+				unit="">
+				<m:content>
+					<m:NumericContent 
+						scale="M" 
+						valueColor="Good" 
+						indicator="Up"
+						value="{CompChartModel>/grpSalesDashboards/0/MtdDiffSalesRevenueGBP}"/>
+				</m:content>
+			</m:TileContent>
+			<m:TileContent>
+				<m:content>
+					<ComparisonMicroChart
+						data="{CompChartModel>/grpSalesDashboards?$filter=(Brand eq 'Total')}"
+						scale="M">
+						<data>
+							<ComparisonMicroChartData 
+								title="{CompChartModel>RecType}"
+								value="{CompChartModel>MtdSalesRevenueGBP}" 
+								color="{CompChartModel>TargetColor}" />
+						</data>
+					</ComparisonMicroChart>
+				</m:content>
+			</m:TileContent>
+		</m:tileContent>
+	</m:GenericTile>
+</mvc:View>

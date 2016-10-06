@@ -1,0 +1,32 @@
+<mvc:View 
+	controllerName="scrollboard.controller.salesDashboard"
+	xmlns="sap.suite.ui.microchart"
+	xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<m:GenericTile
+		binding="{CompChartModel>/grpSalesDashboards}"
+		header="Group Sales" 
+		subheader="Core ($)"
+		frameType="TwoByOne" 
+		press="press">
+		<m:tileContent>
+			<m:TileContent 
+				footer="" 
+				unit=""
+				frameType="TwoByOne">
+				<m:content>
+					<DeltaMicroChart 
+						value1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue}" 
+						value2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue}"
+						title1="MTD" 
+						title2="MTD-1" 
+						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue} {CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual')/Scale}"
+						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue} {CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/Scale}" 
+						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual')/SalesValue}" 
+						color="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual')/Color}"
+						width="100%"/>
+				</m:content>
+			</m:TileContent>
+		</m:tileContent>
+	</m:GenericTile>
+</mvc:View>

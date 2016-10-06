@@ -1,0 +1,20 @@
+<mvc:View controllerName="scrollboard.controller.sbTargetClasseChartTile"
+	xmlns="sap.suite.ui.microchart" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<m:GenericTile header="MTD Sales"
+		subheader="Classe ($)" press="press">
+		<m:tileContent>
+			<m:TileContent>
+				<m:content>
+					<ComparisonMicroChart scale="M">
+						<data>
+							<ComparisonMicroChartData title="Target"
+								value="0.26" color="Good" />
+							<ComparisonMicroChartData title="Actual"
+								value="0.11" color="Good" />
+						</data>
+					</ComparisonMicroChart>
+				</m:content>
+			</m:TileContent>
+		</m:tileContent>
+	</m:GenericTile>
+</mvc:View>

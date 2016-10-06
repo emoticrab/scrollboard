@@ -1,0 +1,150 @@
+{
+    "resources": [
+        {
+            "name": "localService/metadata.xml"
+        },
+        {
+            "name": "img/SubTotalYellow.JPG"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "controller/sbTargetRotelChartTile.controller.js"
+        },
+        {
+            "name": "controller/View1.controller.js"
+        },
+        {
+            "name": "controller/sbTargetBwChartTile.controller.js"
+        },
+        {
+            "name": "controller/sbTargetClasseChartTile.controller.js"
+        },
+        {
+            "name": "controller/sbTargetSystemsChartTile.controller.js"
+        },
+        {
+            "name": "controller/salesDashboard.controller.js"
+        },
+        {
+            "name": "controller/sbTargetTotalYtdChartTile.controller.js"
+        },
+        {
+            "name": "controller/sbTargetHeadphonesChartTile.controller.js"
+        },
+        {
+            "name": "controller/sbTargetTotalMtdChartTile.controller.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "view/Archive/sbTargetSystemsChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/sbTargetTotalMtdChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/dashSalesTargetSystemsChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/dashSalesTargetHeadphonesChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/dashSalesTargetBwChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/dashSalesTargetClasseChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/sbTargetHeadphonesChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/sbTargetBwChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/sbBarChartTest2.view.xml"
+        },
+        {
+            "name": "view/Archive/sbTargetTotalYtdChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/dashSalesTargetRotelChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/dashTargetTotalMtdChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/sbBarChartTest.view.xml"
+        },
+        {
+            "name": "view/Archive/sbBarChartTest3.view.xml"
+        },
+        {
+            "name": "view/Archive/sbTargetRotelChartTile.view.xml"
+        },
+        {
+            "name": "view/Archive/sbTargetClasseChartTile.view.xml"
+        },
+        {
+            "name": "view/View1.view.xml"
+        },
+        {
+            "name": "view/dashMtdSalesCompRotel.view.xml"
+        },
+        {
+            "name": "view/dashMtdSalesCompSystems.view.xml"
+        },
+        {
+            "name": "view/dashYtdSalesCompTotal.view.xml"
+        },
+        {
+            "name": "view/dashYtdSalesCompCore.view.xml"
+        },
+        {
+            "name": "view/dashYtdSalesCompClasse.view.xml"
+        },
+        {
+            "name": "view/dashYtdSalesCompSystems.view.xml"
+        },
+        {
+            "name": "view/dashYtdSalesCompHeadphones.view.xml"
+        },
+        {
+            "name": "view/dashMtdSalesCompTotal.view.xml"
+        },
+        {
+            "name": "view/dashMtdSalesCompClasse.view.xml"
+        },
+        {
+            "name": "view/dashMtdSalesCompHeadphones.view.xml"
+        },
+        {
+            "name": "view/dashYtdSalesCompRotel.view.xml"
+        },
+        {
+            "name": "view/dashMtdSalesCompCore.view.xml"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}
