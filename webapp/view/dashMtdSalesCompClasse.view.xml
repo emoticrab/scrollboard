@@ -15,7 +15,7 @@
 				<m:content>
 					<DeltaMicroChart 
 						value1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/SalesValue}" 
-						value2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue}"
+						value2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}"
 						title1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual')/DateText}" 
 						title2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/DateText}" 
 						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual')/Scale}"
