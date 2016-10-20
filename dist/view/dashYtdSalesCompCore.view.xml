@@ -16,14 +16,14 @@
 				frameType="TwoByOne">
 				<m:content>
 					<DeltaMicroChart 
-						value1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual')/SalesValue}" 
-						value2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual')/SalesValue}"
-						title1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual')/DateText}" 
-						title2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual')/DateText}" 
-						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual')/Scale}"
-						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual')/Scale}" 
-						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTDDIFF',RecType='Actual')/SalesValue}%" 
-						color="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTDDIFF',RecType='Actual')/Color}"
+						value1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual',Region='Total')/SalesValue}" 
+						value2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual',Region='Total')/SalesValue}"
+						title1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual',Region='Total')/DateText}" 
+						title2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual',Region='Total')/DateText}" 
+						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD',RecType='Actual',Region='Total')/Scale}"
+						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTD-1',RecType='Actual',Region='Total')/Scale}" 
+						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTDDIFF',RecType='Actual',Region='Total')/SalesValue}%" 
+						color="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='YTDDIFF',RecType='Actual',Region='Total')/Color}"
 						width="100%"/>
 				</m:content>
 			</m:TileContent>

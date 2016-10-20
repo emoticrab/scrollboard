@@ -6,8 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true,
-    "lastBuildDateTime": "Mon, 03 Oct 2016 03:31:14 GMT"
+    "buildRequired": false,
+    "lastBuildDateTime": "Thu, 20 Oct 2016 01:27:33 GMT"
   },
   "generation": [
     {
@@ -43,7 +43,7 @@
   "hcpdeploy": {
     "account": "a1d45f97c",
     "name": "scrollboard",
-    "lastVersionWeTriedToDeploy": "1.0.154"
+    "lastVersionWeTriedToDeploy": "1.0.160"
   },
   "mockpreview": {
     "mockUri": "/Azure_OData/SalesDashboardOData.svc",

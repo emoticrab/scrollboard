@@ -7,23 +7,23 @@
 		binding="{CompChartModel>/grpSalesDashboards}"
 		header="Headphones" 
 		subheader="month comparison ($)"
-		frameType="TwoByOne" 
+		frameType="TwoByOne"
 		press="press">
 		<m:tileContent>
 			<m:TileContent 
 				footer="" 
-				unit=""
-				frameType="TwoByOne">
+				frameType="TwoByOne"
+				unit="">
 				<m:content>
 					<DeltaMicroChart 
-						value1="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue}" 
-						value2="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue}"
-						title1="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual')/DateText}" 
-						title2="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/DateText}" 
-						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual')/Scale}"
-						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/Scale}" 
-						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual')/SalesValue}%" 
-						color="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual')/Color}"
+						value1="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total',Region='Total')/SalesValue}" 
+						value2="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}"
+						title1="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/DateText}" 
+						title2="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/DateText}" 
+						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/Scale}"
+						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/Scale}" 
+						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual',Region='Total')/SalesValue}%" 
+						color="{CompChartModel>/grpSalesDashboards(Brand='Headphones',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual',Region='Total')/Color}"
 						width="100%"/>
 				</m:content>
 			</m:TileContent>
