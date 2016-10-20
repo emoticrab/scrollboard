@@ -20,8 +20,8 @@
 						value2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}"
 						title1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/DateText}" 
 						title2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/DateText}" 
-						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/Scale}"
-						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/Scale}" 
+						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/Scale}"
+						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/Scale}" 
 						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual',Region='Total')/SalesValue}%" 
 						color="{CompChartModel>/grpSalesDashboards(Brand='Core',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual',Region='Total')/Color}"
 						width="100%"/>
