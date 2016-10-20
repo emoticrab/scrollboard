@@ -17,19 +17,11 @@
 						value1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/SalesValue}" 
 						value2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}"
 						title1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/DateText}" 
-<<<<<<< HEAD
 						title2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/DateText}" 
 						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual',Region='Total')/Scale}"
 						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual',Region='Total')/Scale}" 
 						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual',Region='Total')/SalesValue}%" 
 						color="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual',Region='Total')/Color}"
-=======
-						title2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/DateText}" 
-						displayValue1="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD',RecType='Actual')/Scale}"
-						displayValue2="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/SalesValue}{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTD-1',RecType='Actual')/Scale}" 
-						deltaDisplayValue="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual')/SalesValue}%" 
-						color="{CompChartModel>/grpSalesDashboards(Brand='Classe',Currency='USD',DateIndicator='MTDDIFF',RecType='Actual')/Color}"
->>>>>>> 9eff4d9e2c19caeba5b9169475fae909255db2ee
 						width="100%"/>
 				</m:content>
 			</m:TileContent>
