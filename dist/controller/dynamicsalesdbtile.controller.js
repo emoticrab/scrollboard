@@ -8,7 +8,7 @@ sap.ui.define([
 	return Controller.extend("scrollboard.controller.dynamicsalesdbtile", {
 		onInit: function() {
 			this.getView().setModel(new JSONModel(), "tileModel");
-			setInterval(this.dataFetch(),5000);
+			setInterval(this.dataFetch(),500000);
 		},
 		dataFetch : function(){
 			var oViewData = this.getView().getViewData();
