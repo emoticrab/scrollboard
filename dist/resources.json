@@ -10,6 +10,9 @@
             "name": "manifest.json"
         },
         {
+            "name": "controller/dynamicsalesdbtile.controller.js"
+        },
+        {
             "name": "controller/sbTargetRotelChartTile.controller.js"
         },
         {
@@ -88,6 +91,9 @@
             "name": "view/Archive/sbTargetClasseChartTile.view.xml"
         },
         {
+            "name": "view/dynamicsalesdbtile.view.xml"
+        },
+        {
             "name": "view/View1.view.xml"
         },
         {
@@ -119,6 +125,9 @@
         },
         {
             "name": "view/dashMtdSalesCompHeadphones.view.xml"
+        },
+        {
+            "name": "view/dynamicsalesdbtotaltile.view.xml"
         },
         {
             "name": "view/dashYtdSalesCompRotel.view.xml"

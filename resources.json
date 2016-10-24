@@ -1,0 +1,32 @@
+{
+    "resources": [
+        {
+            "name": "webapp/manifest.json"
+        },
+        {
+            "name": "webapp/i18n/i18n.properties",
+            "raw": "webapp/i18n/i18n.properties"
+        },
+        {
+            "name": "webapp/css/style.css"
+        },
+        {
+            "name": "webapp/controller/dynamicsalesdbtile.controller.js"
+        },
+        {
+            "name": "webapp/index.html"
+        },
+        {
+            "name": "webapp/Component.js"
+        },
+        {
+            "name": "webapp/view/dynamicsalesdbtile.view.xml"
+        },
+        {
+            "name": "webapp/model/models.js"
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

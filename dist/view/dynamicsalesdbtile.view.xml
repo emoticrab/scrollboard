@@ -1,0 +1,34 @@
+<mvc:View controllerName="scrollboard.controller.dynamicsalesdbtile" 
+xmlns:html="http://www.w3.org/1999/xhtml" 
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:chart="sap.suite.ui.microchart"
+	xmlns="sap.m">
+		<GenericTile
+		header="{tileModel>/Brand}" 
+		subheader="{tileModel>/Subtitle}"
+		frameType="TwoByOne"
+		press="press">
+		<tileContent>
+			<TileContent 
+				footer="" 
+				unit="">
+				<content>
+					<chart:DeltaMicroChart 
+						value1="{tileModel>/value1}" 
+						value2="{tileModel>/value2}"
+						title1="{tileModel>/title1}" 
+						title2="{tileModel>/title2}" 
+						displayValue1="{tileModel>/displayValue1}"
+						displayValue2="{tileModel>/displayValue2}" 
+						deltaDisplayValue="{tileModel>/deltaDisplayValue}" 
+						color="{tileModel>/color}"
+						width="100%"
+						/>
+				</content>
+			</TileContent>
+		</tileContent>
+	</GenericTile>
+	<html:style>
+		.sapMTileCnt{width:100%}
+	</html:style>
+</mvc:View>
